@@ -7,3 +7,12 @@ h1{
 img{
     width: 200px;
 }
+.monday{
+    color: blueviolet;
+}
+.food{
+    background-color: rgb(10, 75, 75);
+}
+.dancing{
+    background-color: brown;
+}
