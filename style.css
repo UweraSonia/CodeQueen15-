@@ -1,5 +1,6 @@
 *{
-    background-color: aqua;
+    margin:0;
+    padding:0;
 }
 h1{
     color: brown;
@@ -15,4 +16,24 @@ img{
 }
 .dancing{
     background-color: brown;
+}
+.first{
+    border: 5px red solid;
+    border-style: dotted;  
+    margin:10px 15px;
+    padding: 30px;
+}
+.first{border: 5px red solid;
+    border-style: dotted;  
+    margin:10px 15px;
+    padding: 30px;
+}
+/* my flexbox properties */
+.container{
+    background-color: aqua;
+}
+.childcontainer{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
