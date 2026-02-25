@@ -29,11 +29,64 @@ img{
     padding: 30px;
 }
 /* my flexbox properties */
-.container{
+/* .container{
     background-color: aqua;
-}
+} */
 .childcontainer{
     background-color: blue;
     display: flex;
     justify-content: space-between;
+}
+/*blue container*/
+.blue-container{
+    border: 3px blue solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+.flex-items{
+    border: 2px orange solid;
+    margin: 5px;
+    height: 80px;
+    width: 50px;
+}
+.mine{
+    color: blue;
+  
+}
+.last{
+    border: 1px color blueviolet
+}
+.child-containa{
+    background-color:coral;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+
+}
+ .blue-containa{
+        border:blue solid 5px;
+       display: flex; 
+       flex-direction: row;
+    }
+    .flex-itemz{
+border:brown solid 5px;
+margin: 10px;
+height: 150px;
+width: 150px;
+color: blueviolet;
+text-align: center;
+    }
+.app{
+    color: blue;
+    padding: 10px;
+    margin: 5px;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
 }
